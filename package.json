@@ -1,0 +1,36 @@
+{
+  "name": "sleep-watcher",
+  "author": "David Morgan",
+  "version": "1.0.0",
+  "keywords": [
+    "pebble-app"
+  ],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "Sleep Watcher",
+    "uuid": "94cf9bd4-5c0d-48d5-b3e9-98031763d1a2",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": false,
+      "hiddenApp": true
+    },
+    "messageKeys": [
+      "APP_READY",
+      "MSG_PROCESSED",
+      "SLEEPING"
+    ],
+    "resources": {
+      "media": []
+    },
+    "capabilities": [
+      "health"
+    ]
+  }
+}
